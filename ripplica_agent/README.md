@@ -19,8 +19,7 @@ A smart, AI-powered agent that classifies, searches, summarizes, and stores web 
 
 ## 🏗️ Architecture
 
-```mermaid
-flowchart TD
+```
     A[User Query] --> B{Query Validator}
     B -- Invalid --> Z[Show Error]
     B -- Valid --> C[Embedding & Similarity Check]
@@ -75,15 +74,6 @@ python ripplica_agent/web_ui_stream.py
 6. The **scraped content is summarized** (Hugging Face LLM)
 7. The **summary and embedding are stored** for future similar queries
 8. The **summary is displayed** to the user, live (streaming UI)
-
----
-
-## 🛠️ Extending the Project
-
-- Swap in a more advanced LLM for summarization or validation
-- Add user authentication and persistent history
-- Add more search engines or advanced scraping
-- Deploy to the cloud (Render, Heroku, etc)
 
 ---
 
