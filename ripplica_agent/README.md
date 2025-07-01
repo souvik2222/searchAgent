@@ -21,6 +21,7 @@ A smart, AI-powered agent that classifies, searches, summarizes, and stores web 
 
 ```mermaid
 flowchart TD
+   flowchart TD
     A[User Query] --> B{Query Validator}
     B -- Invalid --> Z[Show Error]
     B -- Valid --> C[Embedding & Similarity Check]
