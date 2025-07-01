@@ -1,0 +1,11 @@
+openai
+playwright
+beautifulsoup4
+requests
+sentence-transformers
+numpy
+click
+tqdm
+transformers
+torch
+flask 
